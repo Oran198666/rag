@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 32px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+}
+
+.Header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.Header h1::before {
+    content: "◆";
+    color: var(--accent);
+    margin-right: 10px;
+}
